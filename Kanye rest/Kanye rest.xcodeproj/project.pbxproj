@@ -14,6 +14,8 @@
 		9012CC1529C4CF13008484D6 /* Kanye_restTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012CC1429C4CF13008484D6 /* Kanye_restTests.swift */; };
 		9012CC1F29C4CF13008484D6 /* Kanye_restUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012CC1E29C4CF13008484D6 /* Kanye_restUITests.swift */; };
 		9012CC2129C4CF13008484D6 /* Kanye_restUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012CC2029C4CF13008484D6 /* Kanye_restUITestsLaunchTests.swift */; };
+		9012CC2E29C4D3EF008484D6 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012CC2D29C4D3EF008484D6 /* StateController.swift */; };
+		9012CC3029C4D47B008484D6 /* KanyeQuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012CC2F29C4D47B008484D6 /* KanyeQuoteResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9012CC1A29C4CF13008484D6 /* Kanye restUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanye restUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9012CC1E29C4CF13008484D6 /* Kanye_restUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye_restUITests.swift; sourceTree = "<group>"; };
 		9012CC2029C4CF13008484D6 /* Kanye_restUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye_restUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9012CC2D29C4D3EF008484D6 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		9012CC2F29C4D47B008484D6 /* KanyeQuoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanyeQuoteResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				9012CC0329C4CF12008484D6 /* Kanye_restApp.swift */,
+				9012CC2F29C4D47B008484D6 /* KanyeQuoteResponse.swift */,
 				9012CC0529C4CF12008484D6 /* ContentView.swift */,
+				9012CC2D29C4D3EF008484D6 /* StateController.swift */,
 				9012CC0729C4CF13008484D6 /* Assets.xcassets */,
 				9012CC0929C4CF13008484D6 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9012CC3029C4D47B008484D6 /* KanyeQuoteResponse.swift in Sources */,
 				9012CC0629C4CF12008484D6 /* ContentView.swift in Sources */,
+				9012CC2E29C4D3EF008484D6 /* StateController.swift in Sources */,
 				9012CC0429C4CF12008484D6 /* Kanye_restApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
